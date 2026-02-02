@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1d1d1d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+nav h1{
+    color: #cacaca;
+}
+
+nav div a {
+    color: rgb(173, 173, 173);
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+nav div a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 174);
+}
+
+nav div button {
+    font-size: 18px;
+    background-color: #fff;
+
+}
+
+nav div button:hover {
+    background-color: #f261ff;
+    text-decoration: underline;
+}
+
+div p {
+    color: #cacaca;
+    margin: 20px;
+    margin-top: 130px;
+    font-size: 27px;
+}
+
+#Download {
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 0px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+#Download:hover {
+    background-color: rgb(255, 93, 244);
+    font-size: 21px;
+}
+
+footer{
+    margin-top: 40px;
+    image-rendering: crisp-edges;
+    width: 100%;
+}
+img {
+    height: 900px;
+}
